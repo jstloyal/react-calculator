@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://github.com/jstloyal/react-calculator">
-    <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fa%2Fa7%2FReact-icon.svg%2F220px-React-icon.svg.png&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FReact_(web_framework)&tbnid=LcNet5h6bMaGyM&vet=12ahUKEwjd8--KiMrsAhVBaBoKHe2JAKkQMygAegUIARCmAQ..i&docid=HUX3vxMryA4w3M&w=220&h=155&q=React&ved=2ahUKEwjd8--KiMrsAhVBaBoKHe2JAKkQMygAegUIARCmAQ" alt="React Logo" width="120" height="120">
+    <img src="https://storage.googleapis.com/blog-images-backup/1*3SVfBkNZI2f-sspiq59xcw.png" alt="React Logo" width="120" height="120">
   </a>
 
   <p align="center">
