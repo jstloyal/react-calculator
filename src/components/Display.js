@@ -1,19 +1,19 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from "react";
+import PropTypes from "prop-types";
 
-function Display({result}) {
+function Display({ result }) {
   return (
     <div>
-      <h2>{result}</h2>
+      <h3> {result} </h3>
     </div>
   );
 }
 
-Display.PropTypes = {
+Display.propTypes = {
   result: PropTypes.string,
-}
+};
 Display.defaultProps = {
-  result = 0
-}
+  result: "0",
+};
 
 export default Display;
