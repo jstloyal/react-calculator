@@ -8,7 +8,6 @@ function ButtonPanel() {
         <Button names="AC" />
         <Button names="+/-" />
         <Button names="%" />
-        <Button names="AC" />
         <Button names="&#247;" />
       </div>
       <div className="group2">
