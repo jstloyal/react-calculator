@@ -1,68 +1,85 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Calculator
 
-## Available Scripts
+<!--
+*** Thanks for checking out this README Template. If you have a suggestion that would
+*** make this better, please fork the repo and create a pull request or simply open
+*** an issue with the tag "enhancement".
+*** Thanks again! Now go create something AMAZING! :D
+-->
 
-In the project directory, you can run:
+<!-- PROJECT SHIELDS -->
 
-### `yarn start`
+<p align="center">
+  <a href="https://github.com/jstloyal/react-calculator">
+    <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fa%2Fa7%2FReact-icon.svg%2F220px-React-icon.svg.png&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FReact_(web_framework)&tbnid=LcNet5h6bMaGyM&vet=12ahUKEwjd8--KiMrsAhVBaBoKHe2JAKkQMygAegUIARCmAQ..i&docid=HUX3vxMryA4w3M&w=220&h=155&q=React&ved=2ahUKEwjd8--KiMrsAhVBaBoKHe2JAKkQMygAegUIARCmAQ" alt="React Logo" width="120" height="120">
+  </a>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <p align="center">
+    This project is part of the Microverse curriculum in React module!
+  </p>
+</p>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<!-- TABLE OF CONTENTS -->
 
-### `yarn test`
+## Table of Contents
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [About the Project](#about-the-project)
+- [Contributors](#Installation)
+- [Contributors](#contributors)
+- [Acknowledgements](#acknowledgements)
+- [License](#license)
 
-### `yarn build`
+## About The Project
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Basic calculator app built with React
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+[Project live link](https://tayo-calculator.herokuapp.com/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
 
-### `yarn eject`
+To run 'Calcualtor app' locally, clone the repository, navigate the cloned directory.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#### Follow these commands step by step:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+git@github.com:jstloyal/react-calculator.git
+cd react-calculator.git
+npm install
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Built With
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+This project was built using these technologies.
 
-## Learn More
+- React
+- big.js
+- prop-types
+- ESlint
+- VS Code editor
+- yarn
+- NPM
+- GitHub
+- Heroku
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contributors
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Author**
 
-### Code Splitting
+​**Adetayo Sunkanmi**
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+- Github: [@jstloyal](https://github.com/jstloyal)
+- Twitter: [@jstloyalty](https://twitter.com/jstloyalty)
+- Linkedin: [Adetayo Sunkanmi](https://www.linkedin.com/in/jstloyalty)
+- E-mail: jstloyalty@gmail.com
 
-### Analyzing the Bundle Size
+<!-- ACKNOWLEDGEMENTS -->
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## Acknowledgements
 
-### Making a Progressive Web App
+- [Microverse](https://www.microverse.org/)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+## License
 
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+📝
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
