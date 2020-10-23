@@ -1,14 +1,14 @@
 import React from "react";
 import ButtonPanel from "./ButtonPanel";
-import Disply from "./Display";
+import Display from "./Display";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <h1>Calculator</h1>
+      <h1>Calculator App</h1>
       <ButtonPanel />
-      <Disply />
+      <Display />
     </div>
   );
 }
