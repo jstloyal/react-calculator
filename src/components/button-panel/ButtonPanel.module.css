@@ -1,0 +1,19 @@
+.group {
+  display: flex;
+  background-color: #fe902a;
+  height: 100px;
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  border-radius: 0 0 6px 6px;
+}
+
+.button-styles {
+  color: #dfdfdf;
+}
+
+.button-styles :hover {
+  color: #777;
+}
