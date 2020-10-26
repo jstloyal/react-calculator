@@ -1,8 +1,9 @@
-import React from "react";
-import ButtonPanel from "../button-panel/ButtonPanel";
+import React from 'react';
+import ButtonPanel from '../button-panel/ButtonPanel';
+// eslint-disable-next-line
 import calculate from "../../logic/calculate";
-import Display from "../display/Display";
-import styles from "./App.module.css";
+import Display from '../display/Display';
+import styles from './App.module.css';
 
 function App() {
   return (

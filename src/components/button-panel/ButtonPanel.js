@@ -1,6 +1,6 @@
-import React from "react";
-import Button from "../button/Button";
-import styles from "./ButtonPanel.module.css";
+import React from 'react';
+import Button from '../button/Button';
+import styles from './ButtonPanel.module.css';
 
 function ButtonPanel() {
   return (
