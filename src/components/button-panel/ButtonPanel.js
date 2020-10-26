@@ -9,7 +9,7 @@ function ButtonPanel() {
         <Button names="AC" color="#dfdfdf" />
         <Button names="+/-" color="#dfdfdf" />
         <Button names="%" color="#dfdfdf" />
-        <Button names="&#247;" />
+        <Button names="÷" />
       </div>
       <div className={styles.group}>
         <Button names="7" color="#dfdfdf" />
