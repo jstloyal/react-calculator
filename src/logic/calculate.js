@@ -1,18 +1,18 @@
-import operate from './operate';
+import operate from "./operate";
 
-const calculate = ({total, next, operation}, buttonName) => {
-  const operators = ['+', '-', '÷', 'X', '%'];
+const calculate = ({ total, next, operation }, buttonName) => {
+  const operators = ["+", "-", "÷", "x", "%"];
 
-  if (buttonName === 'AC') {
+  if (buttonName === "AC") {
     total = 0;
     next = null;
     operation = null;
-  } else if (buttonName === '=' && next && total & operation) {
-    total = operate(total, next, operation)
+  } else if (buttonName === "=" && next && total & operation) {
+    total = operate(total, next, operation);
     next = null;
     operation = null;
   } else if (operators.includes(buttonName)) {
-    if (buttonName === '%') {
+    if (buttonName === "%") {
       next = (next *= 0.01).toString();
       operation = null;
     }
@@ -26,20 +26,20 @@ const calculate = ({total, next, operation}, buttonName) => {
       operation = buttonName;
       next = null;
     } else {
-      operation = buttonName
+      operation = buttonName;
     }
-  } else if (buttonName === '+/-') {
+  } else if (buttonName === "+/-") {
     next = (next * -1).toString();
     total = (total * -1).toString();
-  } else if (buttonName === '.' && next) {
-    if (!next.includes('.')) {
-      next += '.';
+  } else if (buttonName === "." && next) {
+    if (!next.includes(".")) {
+      next += ".";
     }
   } else if (next) {
     if (
-      !operators.includes(buttonName)
-      && buttonName !== '='
-      && buttonName !== '.'
+      !operators.includes(buttonName) &&
+      buttonName !== "=" &&
+      buttonName !== "."
     ) {
       next += buttonName;
     }

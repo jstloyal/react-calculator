@@ -1,6 +1,6 @@
-import React from 'react';
-import Button from '../button/Button';
-import styles from './ButtonPanel.module.css';
+import React from "react";
+import Button from "../button/Button";
+import styles from "./ButtonPanel.module.css";
 
 function ButtonPanel() {
   return (
@@ -15,7 +15,7 @@ function ButtonPanel() {
         <Button names="7" color="#dfdfdf" />
         <Button names="8" color="#dfdfdf" />
         <Button names="9" color="#dfdfdf" />
-        <Button names="X" />
+        <Button names="x" />
       </div>
       <div className={styles.group}>
         <Button names="4" color="#dfdfdf" />
