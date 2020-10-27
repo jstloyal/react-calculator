@@ -1,20 +1,20 @@
-import React from 'react';
-import ButtonPanel from '../button-panel/ButtonPanel';
+import React, { Component } from "react";
+import Display from "../display/Display";
+import ButtonPanel from "../button-panel/ButtonPanel";
 // eslint-disable-next-line
 import calculate from "../../logic/calculate";
-import Display from '../display/Display';
-import styles from './App.module.css';
+import styles from "./App.module.css";
 
-function App() {
-  return (
-    <div className={styles.container}>
-      <div className={styles.app}>
-        <h2 className={styles.title}>Calculator</h2>
-        <ButtonPanel />
-        <Display />
-      </div>
-    </div>
-  );
+class App extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      total: null,
+      next: null,
+      operation: null,
+    };
+  }
 }
 
 export default App;
