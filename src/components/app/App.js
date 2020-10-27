@@ -15,6 +15,26 @@ class App extends Component {
       operation: null,
     };
   }
+
+  handleClick = (buttonName) => {
+    this.setState(calculate(this.state, buttonName));
+  };
+
+  render() {
+    const defaultDisplay = "0";
+    const { next, total } = this.state;
+
+    const result = next || total || defaultDisplay;
+    return (
+      <div className={styles.container}>
+        <div className={styles.app}>
+          <h2 className={styles.title}>Calculator</h2>
+          <Display result={result} />
+          <ButtonPanel clickHandler={this.handleClick} />
+        </div>
+      </div>
+    );
+  }
 }
 
 export default App;
