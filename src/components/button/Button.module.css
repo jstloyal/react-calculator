@@ -1,9 +1,9 @@
-.button {
+button {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: lighter;
+  font-weight: 400;
   font-size: 1.8em;
   color: #000;
   border: 1px solid rgb(214, 210, 210);
