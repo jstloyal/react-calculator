@@ -1,9 +1,9 @@
-import React, { Component } from "react";
-import Display from "../display/Display";
-import ButtonPanel from "../button-panel/ButtonPanel";
+import React, { Component } from 'react';
+import Display from '../display/Display';
+import ButtonPanel from '../button-panel/ButtonPanel';
 // eslint-disable-next-line
 import calculate from "../../logic/calculate";
-import styles from "./App.module.css";
+import styles from './App.module.css';
 
 class App extends Component {
   constructor(props) {
@@ -16,12 +16,13 @@ class App extends Component {
     };
   }
 
-  handleClick = (buttonName) => {
+  handleClick = buttonName => {
+    // eslint-disable-next-line react/no-access-state-in-setstate
     this.setState(calculate(this.state, buttonName));
   };
 
   render() {
-    const defaultDisplay = "0";
+    const defaultDisplay = '0';
     const { next, total } = this.state;
 
     const result = next || total || defaultDisplay;

@@ -1,4 +1,4 @@
-import Big from "big.js";
+import Big from 'big.js';
 
 const operate = (firstNum, secondNum, operation) => {
   const num1 = Big(firstNum);
@@ -6,24 +6,24 @@ const operate = (firstNum, secondNum, operation) => {
   let total = 0;
 
   switch (operation) {
-    case "-":
+    case '-':
       total = num1.minus(num2).toString();
       break;
-    case "+":
+    case '+':
       total = num1.plus(num2).toString();
       break;
-    case "x":
+    case 'x':
       total = num1.times(num2).toString();
       break;
-    case "÷":
+    case '÷':
       if (num2.toString() === '0') {
-        total = "NaN";
+        total = 'NaN';
       } else {
         total = num1.div(num2).toString();
       }
       break;
-    case "%":
-      total = num1.times("0.01").toString();
+    case '%':
+      total = num1.times('0.01').toString();
       break;
     default:
   }

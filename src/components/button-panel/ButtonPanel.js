@@ -1,9 +1,9 @@
-import React from "react";
-import PropTypes from "prop-types";
-import Button from "../button/Button";
-import styles from "./ButtonPanel.module.css";
+import React from 'react';
+import PropTypes from 'prop-types';
+import Button from '../button/Button';
+import styles from './ButtonPanel.module.css';
 
-function ButtonPanel({clickHandler}) {
+function ButtonPanel({ clickHandler }) {
   return (
     <div className={styles.panel}>
       <div className={styles.group}>
