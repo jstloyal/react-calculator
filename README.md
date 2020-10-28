@@ -33,6 +33,10 @@
 
 Basic calculator app built with React
 
+<p align="center">
+    <img src="https://res.cloudinary.com/jstloyalty/image/upload/v1603860564/tyn0bxmy4xuuwpgzbikx.png" alt="calculator" >
+</p>
+
 [Project live link](https://tayo-calculator.herokuapp.com/)
 
 ## Installation

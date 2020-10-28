@@ -1,41 +1,46 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Button from '../button/Button';
 import styles from './ButtonPanel.module.css';
 
-function ButtonPanel() {
+function ButtonPanel({ clickHandler }) {
   return (
     <div className={styles.panel}>
       <div className={styles.group}>
-        <Button names="AC" color="#dfdfdf" />
-        <Button names="+/-" color="#dfdfdf" />
-        <Button names="%" color="#dfdfdf" />
-        <Button names="÷" />
+        <Button name="AC" color="#dfdfdf" clickHandler={clickHandler} />
+        <Button name="+/-" color="#dfdfdf" clickHandler={clickHandler} />
+        <Button name="%" color="#dfdfdf" clickHandler={clickHandler} />
+        <Button name="÷" clickHandler={clickHandler} />
       </div>
       <div className={styles.group}>
-        <Button names="7" color="#dfdfdf" />
-        <Button names="8" color="#dfdfdf" />
-        <Button names="9" color="#dfdfdf" />
-        <Button names="X" />
+        <Button name="7" color="#dfdfdf" clickHandler={clickHandler} />
+        <Button name="8" color="#dfdfdf" clickHandler={clickHandler} />
+        <Button name="9" color="#dfdfdf" clickHandler={clickHandler} />
+        <Button name="x" clickHandler={clickHandler} />
       </div>
       <div className={styles.group}>
-        <Button names="4" color="#dfdfdf" />
-        <Button names="5" color="#dfdfdf" />
-        <Button names="6" color="#dfdfdf" />
-        <Button names="-" />
+        <Button name="4" color="#dfdfdf" clickHandler={clickHandler} />
+        <Button name="5" color="#dfdfdf" clickHandler={clickHandler} />
+        <Button name="6" color="#dfdfdf" clickHandler={clickHandler} />
+        <Button name="-" clickHandler={clickHandler} />
       </div>
       <div className={styles.group}>
-        <Button names="1" color="#dfdfdf" />
-        <Button names="2" color="#dfdfdf" />
-        <Button names="3" color="#dfdfdf" />
-        <Button names="+" />
+        <Button name="1" color="#dfdfdf" clickHandler={clickHandler} />
+        <Button name="2" color="#dfdfdf" clickHandler={clickHandler} />
+        <Button name="3" color="#dfdfdf" clickHandler={clickHandler} />
+        <Button name="+" clickHandler={clickHandler} />
       </div>
       <div className={styles.group}>
-        <Button names="0" color="#dfdfdf" wide={100} />
-        <Button names="." color="#dfdfdf" />
-        <Button names="=" />
+        <Button name="0" color="#dfdfdf" wide={100} clickHandler={clickHandler} />
+        <Button name="." color="#dfdfdf" clickHandler={clickHandler} />
+        <Button name="=" clickHandler={clickHandler} />
       </div>
     </div>
   );
 }
+
+ButtonPanel.propTypes = {
+  clickHandler: PropTypes.func.isRequired,
+};
 
 export default ButtonPanel;
